@@ -1,4 +1,4 @@
-#Pokedex
+# Pokedex
 Pokedex is a simple webpage I created with the help of GitHub Copilot. Despite having minimal knowledge of frontend development and APIs, I was able to build this project by leveraging the power of AI-assisted coding.
 
 ## Technologies Used
