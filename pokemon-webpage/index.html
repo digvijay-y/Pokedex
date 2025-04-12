@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Pokémon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random Pokémon Generator</h1>
+        <button id="load-pokemon">Load Random Pokémon</button>
+        <button id="start-selection">Start Selection</button>
+        <div id="pokemon-info" class="pokemon-info">
+            <div id="loading-spinner" style="display: none;">Loading...</div>
+            <h2 id="pokemon-name"></h2>
+            <img id="pokemon-image" alt="Pokemon Image">
+            <p><strong>Ability:</strong> <span id="pokemon-ability"></span></p>
+            <p><strong>Height:</strong> <span id="pokemon-height"></span></p>
+            <p><strong>Moves:</strong> <span id="pokemon-moves"></span></p>
+            <p><strong>Type:</strong> <span id="pokemon-type"></span></p>
+            <p><strong>Evolution:</strong> <span id="pokemon-evolution"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
